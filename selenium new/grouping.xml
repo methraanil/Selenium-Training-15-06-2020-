@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="grouping">
+	<test name="grouping test">
+		<groups>
+			<define name="MostUsed">
+				<include name="top rated"></include>
+			</define>
+			<define name="SocialMedia">
+				<include name="social media"></include>
+			</define>
+			<define name="all">
+				<include name="social media"></include>
+				<include name="search engine"></include>
+			</define>
+			<run>
+				<include name="MostUsed"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.grouping"></class>
+		</classes>
+	</test>
+</suite>

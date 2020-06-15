@@ -1,0 +1,8 @@
+<suite name="My first Suite">
+<test name="Concurrent test">
+	<classes>
+	<class name="testNG.SuiteTest1"></class>
+	<class name="testNG.SuiteTest2"></class>
+	</classes>
+</test>
+</suite>

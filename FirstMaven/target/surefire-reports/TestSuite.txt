@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 237.02 s <<< FAILURE! - in TestSuite
+LoginTest(Assignment3.Test_TC001)  Time elapsed: 19.316 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using id=header-account-menu
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-CHFSUI5B', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: RemoteWebDriver
+	at Assignment3.Test_TC001.LoginTest(Test_TC001.java:32)
+
+TC002(Assignment3.Test_TC002)  Time elapsed: 134.494 s  <<< FAILURE!
+java.lang.AssertionError: expected [Yerawada,] but found [Hyderabad]
+	at Assignment3.Test_TC002.TC002(Test_TC002.java:55)
+
+TC002(Assignment3.Test_TC002)  Time elapsed: 40.175 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#hotel\-checkin\-hp\-hotel"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-CHFSUI5B', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SUNIL_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51556}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1baac25e7c47c2f98800e268bc8e43f9
+*** Element info: {Using=id, value=hotel-checkin-hp-hotel}
+	at Assignment3.Test_TC002.TC002(Test_TC002.java:52)
+
+TC002(Assignment3.Test_TC002)  Time elapsed: 19.789 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.expedia.co.in/] but found [https://www.expedia.co.in/?pwaLob=wizard-hotel-pwa-v2]
+	at Assignment3.Test_TC002.TC002(Test_TC002.java:45)
+

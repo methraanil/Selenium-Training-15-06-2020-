@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="password" value="anil1997"/>
+  <parameter name="emailId" value="manilk1997@gmail.com"/>
+  <parameter name="url" value="https://www.expedia.co.in/"/>
+  <test parallel="none" name="TestCase002(failed)">
+    <parameter name="password" value="anil1997"/>
+    <parameter name="emailId" value="manilk1997@gmail.com"/>
+    <parameter name="url" value="https://www.expedia.co.in/"/>
+    <classes>
+      <class name="Assignment3.Test_TC002">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="TC002" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Assignment3.Test_TC002 -->
+    </classes>
+  </test> <!-- TestCase002(failed) -->
+</suite> <!-- Failed suite [Suite] -->

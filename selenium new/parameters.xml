@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parameter suite">
+	<test name="parameter test">
+		<parameter name="test1" value="parameterValue"></parameter>
+		<parameter name="a" value="1"></parameter>
+		<parameter name="b" value="2"></parameter>
+		<classes>
+			<class name="testNG.ParametersTestNG"></class>
+		</classes>
+	</test>
+</suite>

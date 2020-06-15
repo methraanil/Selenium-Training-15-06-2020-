@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="TestCase001">
+		<parameter name="emailId" value="manilk1997@gmail.com"></parameter>
+		<parameter name="password" value="anil1997"></parameter>
+		<parameter name="url" value="https://www.expedia.co.in/"></parameter>
+		<classes>
+
+			<class name="Assignment3.Test_TC001" />
+		</classes>
+	</test>
+
+	<test name="TestCase002">
+		<parameter name="emailId" value="manilk1997@gmail.com"></parameter>
+		<parameter name="password" value="anil1997"></parameter>
+		<parameter name="url" value="https://www.expedia.co.in/"></parameter>
+		<classes>
+
+			<class name="Assignment3.Test_TC002" />
+		</classes>
+	</test>
+
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LocalSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ParticularTest(failed)">
+    <classes>
+      <class name="testNG.DataProvider">
+        <methods>
+          <include name="testGoogle"/>
+          <include name="testGoogle"/>
+          <include name="testGoogle"/>
+        </methods>
+      </class> <!-- testNG.DataProvider -->
+    </classes>
+  </test> <!-- ParticularTest(failed) -->
+</suite> <!-- Failed suite [LocalSuite] -->

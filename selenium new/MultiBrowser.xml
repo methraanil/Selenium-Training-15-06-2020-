@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MultiBrowser" parallel="tests">
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testNG.MultiBrowser"></class>
+		</classes>
+	</test>
+
+	<test name="FireFox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testNG.MultiBrowser"></class>
+		</classes>
+	</test>
+</suite>
